@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!--ICONOS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/main.css"> 
+    
+<!--LINK ICONOS para boton ir arriba-->
+<script src="https://kit.fontawesome.com/dd58ac0482.js" crossorigin="anonymous"></script>
+
+    <!--Elementos para boton ir arriba-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    
+    
+    
+
+    <title>COVITEC</title>
+  </head>
+  <body>
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-1">COVITEC</p>   
+    </header> 
+    
+    <H3 style="text-align: center;">INFORMACION COVID-19</H3>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <span class="fs-5 text-primary fw-bold">Covitec</span>
+          </a>
+         
+          <!--menu responsivo-->
+          
+
+          <div id="navbarSupportedContent  ">
+            <ul class="navbar-nav me-auto mb-3  mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link " href="#equipo">EQUIPO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">CONTACTOS</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pag2Covid.html">MÁS INFORMACIÓN</a>
+              </li>
+            </ul>                
+          </div> 
+          
+          <form class="d-flex ">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+          </form>
+
+        </div>
+      </nav> 
+
+<!--========================================================== -->
+                        <!-- BOTON IR A INICIO-->
+<!--========================================================== -->
+<div class="cm-up" id="cm-up">
+  <input type="button" class="cm-text-up" value="Subir al Inicio">
+  <span class="cm-icon">
+    <i class="fas fa-arrow-alt-circle-up"></i>
+  </span>
+</div>
+
+
+    <!--========================================================== -->
+                        <!-- CARRUSEL DE IMAGENES-->
+    <!--========================================================== -->
+    <div   class="carousel slide " id="carouselExampleCaptions" style="max-width: 780px; margin: 0 auto" data-bs-ride="carousel">
+      <div class="carousel-indicators  ">
+       
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      
+      </div>
+     
+      <!--IMAGENES DE CARRUSEL-->
+      <div class="carousel-inner ">
+       
+          <div class="carousel-item active ">
+          <img src="imagenes Carrusel/1.jpg" class="d-block w-100"  alt="new" >
+          <div class="carousel-caption d-none d-md-block">
+            <h4>COVITEC</h4>
+           <h4> <p style="color:#000000";></p></h4>
+          </div>
+        </div>
+       
+        <div class="carousel-item">
+          <img src="imagenes carrusel/2.jpg" class="d-block w-100" alt="york">
+          <div class="carousel-caption d-none d-md-block">
+              <h5> <p style="color:#ffffff";>COVITEC</p></h5>
+            <h4> <p style="color:#ffffff";>Instituto Tecnológico de Gustavo A. Madero</p></h4>
+          </div>
+        </div>
+      
+        <div class="carousel-item">
+          <img src="imagenes carrusel/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>COVITEC</h5>
+            
+            <h4><p>Instituto Tecnológico de Gustavo A. Madero</p></h4>
+          </div>
+        </div> 
+
+        <div class="carousel-item">
+          <img src="imagenes carrusel/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h4> <p style="color:#000000";></p></h4>
+              <h4> <p style="color:#000000";></p></h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="imagenes carrusel/5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4></h4>
+            <h4></h4>
+          </div>
+        </div>
+      
+      </div>
+    
+      <!--controles atras y siguiente imagen-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+    
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+   
+  </div>
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">UNA PAGINA DONDE TENDRAS INFORMACION CLARA SOBRE EL <span class="text-primary">COVID-19<span/></h1>
+
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+     <p class="p-3  fs-4">
+         <span class="text-primary">COVITEC  &nbsp;</span>Es una pagina para generar una fuente de información confiable, para que los públicos interesados sobre el tema tengan un lugar donde puedan saber más sobre el tema sin censuras.         
+     </p>   
+    </section>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/desarrollo.png" alt="desarrollo"   width="980" height="260">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">ESTADISTICAS</h3>
+                <p class="px-4">Numero de casos confirmados de COVID-19 octubre 2021 por edad</p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/concepto.png" alt="concepto" width="430" height="260">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Desinfeccion de celular</h3>
+                <p class="px-4">Pasos a seguir para desinfectar tu celular</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Cuidado personal</h3>
+                <p class="px-4">
+                  Si has estado en contacto con alguien que tenga la COVID-19, sigue estos pasos:
+                  Llama por teléfono a tu proveedor de servicios sanitarios o a una línea de atención sobre la COVID-19 para que te indiquen dónde y cuándo puedes hacerte una prueba.
+                  Coopera en los procedimientos de rastreo para frenar la propagación del virus.
+                  En caso de que no sea posible hacerte una prueba, quédate en casa y aíslate durante 14 días.
+                  Durante el periodo de cuarentena, no vayas al trabajo, a clase ni a lugares públicos. Si necesitas algo de fuera, pide a alguien que te lo lleve.
+                  Mantén una distancia de al menos 1 metro con otras personas, incluidos tus familiares.
+                  Usa la mascarilla para no contagiar a los demás. También debes llevarla puesta si necesitas acudir a un centro médico.
+                  Lávate las manos con frecuencia.
+                  </p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/seo.png" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">¿Vuelta segura al colegio en septiembre 2020?</h3>
+                <p class="px-4">La pandemia de la COVID-19, vamos a plantear una serie de medidas, las conocidas y eficaces actualmente. Están basadas en el PLAN ESTRATÉGICO DE ENFERMERÍA ESCOLAR PARA LA PREVENCIÓN COVID-19 EN LOS CENTROS EDUCATIVOS(link is external). Ha sido elaborado por la Asociación Nacional e Internacional de Enfermería Escolar (AMECE). 
+                  Es un documento dinámico de consulta. En él encontraremos las recomendaciones de protección y reducción de riesgo de transmisión, disponibles en la actualidad. Se revisa periódicamente para introducir cambios significativos en función de las evidencias científicas y normativas vigentes.
+                  La educación no presencial ha generado brechas de desigualdad a nivel educativo. Y deben ser abordadas, por los diferentes recursos materiales, digitales y personales que cada familia tiene. 
+                  </p>
+            </div>          
+        </div>
+        
+        <br><br><br><br><br><br>
+        <section><center>  <div><a href="pag2Covid.html" class="btn btn-primary">DA CLIC AQUÍ PARA MÁS INFORMACIÓN</a> </div></center>  </section>
+       
+        <br><br><br> <br><br><br><br><br><br><br>
+       
+       
+        <div> <h1>Estadisticas Del Covid-19 En México De La Secretaría De Salud 
+          De La Dirección General De Epidemiología</h1>
+          <iframe src="https://datos.covid-19.conacyt.mx/" width="100%" height="700" style="border:1px solid black;"> 
+          </iframe></div>
+        
+       
+      
+    
+      </div>
+</section>
+
+
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo <span class="text-primary">COVITEC</span>.</h1>
+        <p class="fs-4 ">Somos un equipo que quiere generar una fuente de información confiable, para que los públicos interesados sobre el tema tengan un lugar donde pueda saber más sobre el tema sin censuras. Así mismo tenemos la certeza que nuestra empresa será líder en mantener la información al día</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <img id="img-equipo" src="./img/equipo.jpg" alt="equipo" >
+    </div>
+
+    <div id="local" class="border-top border-2">
+        
+        <div >
+           
+          <p>  
+          <img src="./img/mapa.PNG" align="right" width="600" height="500"  >  <br > 
+            
+          </p> 
+            <div class="wrapper-local" class="container"  style=" margin-top:-130px ;">
+                <h2>Ubicado en Tecnológico de Gustavo A Madero.</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Este sitio web informativo ofrece diversos datos que nos pueden ayudar a evitar un contagio de Covid-19 a través de sencillas recomendaciones, así como lo que se sabe hasta el momento en cifras a nivel mundial.
+                  Con este proyecto se espera poder divulgar de una manera más amplia la información sobre la pandemia de la que somos testigos, todo esto a través de una página web informativa que explica detalladamente las diversas formas de contagio, síntomas, etc.  
+                  </p>  
+                <section class="d-flex justify-content-start" id="numeros-local">
+                    <div>
+                        <p class="text-primary fs-5">248</p>
+                        <p>Dias de Sol</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p>Aprobado</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">24 °C</p>
+                        <p>Temperatura</p>
+                    </div>
+              </section> 
+              <br><br><br> <h3 align="right"> Dirección: Avenida 608 y, Av. 412 300, Zoológico de San Juan de Aragón, Gustavo A. Madero, 07470 Ciudad de México, CDMX 
+            </h3> 
+            </div>
+        </div> 
+        
+    </div> 
+
+   
+</section>
+
+
+<!--========================================================== -->
+                        <!-- SECCION CONTACTOS-->
+<!--========================================================== -->
+
+<section id="seccion-contacto" class="border-bottom border-primary border-5">
+  <div id="bg-contactos">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  </div>
+
+
+<!--========================================================== -->
+                      <!-- CONTENEDOR DEL FORMULARIO -->
+<!--========================================================== -->
+
+  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">Estamos aqui para brindarte informacion </p>
+      </div>
+
+     
+
+      <form action="">     
+            <div class= "mb-3">           
+              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+ 
+          
+            <div class="mb-3">            
+              <input type="input" class="form-control" id="nombre" placeholder="Hugo Cruz">
+            </div>
+      
+
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+            </div>
+
+          <div class="mb-3">       
+            <textarea class="form-control" id="msj" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="button" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+      </form>
+  
+  </div>
+</section>
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">COVITEC. &copy; Tecnológico de Gustavo A Madero.</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>  
+  </div>
+</footer>
+ 
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script> 
+
+    
+    
+  </body>
+
+  <style>
+
+  </style>
+</html>
